@@ -2,27 +2,30 @@
 #include<stdlib.h>
 
 
-typedef struct pessoa{
-    int idade; // 4 bytes
-    unsigned long long id; // 12 bytes
-    int* prox;
-} Pessoa;
+struct minha_estrutura{
+    int dado1;
+    int dado2;
+};
+
+typedef struct {
+    int dado1;
+    double dado2;
+} Minha_estrutura2;
 
 
 int main(){
-    Pessoa joao;
-    short int short_inteiro;
-    long long int interio_muito_grande;
-    float decimal;
-    double muito_decimal;
-    char letra;
-
-    printf("%d - pessoa\n", sizeof(joao));
-    printf("%d - short_inteiro\n", sizeof(short_inteiro));
-    printf("%d - interio_muito_grande\n", sizeof(interio_muito_grande));
-    printf("%d - decimal\n", sizeof(decimal));
-    printf("%d - muito_decimal\n", sizeof(muito_decimal));
-    printf("%d - letra\n", sizeof(letra));
+    printf("int: %d \n",sizeof(int));
+    printf("short int: %d \n",sizeof(short int));
+    printf("long long int: %d \n",sizeof(long long int));
+    printf("unsigned int: %d \n",sizeof(unsigned int));
+    printf("unsigned short int: %d \n",sizeof(unsigned short int));
+    printf("unsigned long long int: %d \n",sizeof(unsigned long long int));
+    printf("float: %d \n",sizeof(float));
+    printf("double: %d \n",sizeof(double));
+    printf("char: %d \n",sizeof(char));
+    printf("void*: %d \n",sizeof(void*));
+    printf("struct minha_estrutura: %d \n",sizeof(struct minha_estrutura));
+    printf("Minha_estrutura2: %d \n",sizeof(Minha_estrutura2));
 
 
 
