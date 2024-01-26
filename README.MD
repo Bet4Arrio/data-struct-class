@@ -7,6 +7,8 @@
 
 - Structs
 
+- Complexidade de Algoritimos
+
 - alocação continua de memoria statica e dinamica (vetor)
 
 - alocação dinamica de memoria (listas)
