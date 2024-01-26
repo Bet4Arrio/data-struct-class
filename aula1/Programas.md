@@ -5,7 +5,7 @@ Um breve resumo sobre como os programas rodam
 ## Processador 
 O processador é  centro de operações de um computador, ele se encarrega de ler, interpreta e executar instruções que recebe.
 
-A execução  instruções ocorrem em um nucleo, que é responsevel por de acordo com as instruções que recebe, buscar dados da memoria, e trabalhar em cima deles (mudar de lugar, mudar valores, comparar, etc)
+A execução  instruções ocorrem em um nucleo, que é responsevel por executar as instruções que recebe, buscar dados da memoria, e trabalhar em cima deles (mudar de lugar, mudar valores, comparar, etc)
 
 ## Oque um Programa?
 Um programa nada mais é que um conjunto de instruções em codigo de maquina para uma arquitetura de processados, este esta salvo em uma memoria não volatil como HDs ou SSDs.
