@@ -33,3 +33,9 @@ Exemplo: Salvar interações anteriores de uma função Fibonacci para não prec
 ## Outras
 
 Existem várias outras técnicas que são úteis para problemas diferentes.
+
+- Algoritmos Heurísticos
+- Backtracking
+- Algoritmos de Branch and Bound
+- Algoritmos de Geometria Computacional
+- Algoritmos de Grafos
