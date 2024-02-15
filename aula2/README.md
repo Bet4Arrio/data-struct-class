@@ -120,7 +120,7 @@ func InsertionSort(nums []int){
 ``Espaço:``: O(1) Só é necessário a variável pivot para fazer a troca de variável (às vezes a linguagem não mostra, mas ela é usada).
 
 
-### conclusão
+### Conclusão
 
 As notações Big O fornecem uma base para entender como o seu algoritmo se comportará em termos de tempo de execução (número de instruções) ou uso de RAM. Essas notações não estão vinculadas a um hardware específico, então o mesmo algoritmo pode ter tempos de execução diferentes em milissegundos (ms) em computadores diferentes. Além disso, o consumo de recursos pode variar dependendo do tipo de dados sendo processados. No entanto, as notações Big O servem como um guia para avaliar se o desempenho do algoritmo está dentro de limites aceitáveis ou se precisa ser otimizado.
 
