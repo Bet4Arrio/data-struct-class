@@ -34,14 +34,14 @@ size_t fiboDinamico(size_t X, size_t* decorator){
 
 
 size_t* MontaDecorator(size_t tam){
-    size_t *decorator = (size_t*)calloc(tam, sizeof(size_t));
+    size_t *decorator = (size_t*)malloc(tam, sizeof(size_t));
     for (size_t i = 0; i < tam; i++){
         decorator[i] = -1;
     }
     return decorator;
 }
 int main(){
-    // funciona como o malloc mas inicia tudo como Zero
+   
     
     size_t *decorator;
     clock_t start, end;
