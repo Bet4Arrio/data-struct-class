@@ -8,5 +8,5 @@ Vamos supor um algoritimo de caixa eletronico, que deve informa quantas cedulas/
 ### Dividir para Conquistar (dividir.c)
 Fazer algoritimo de buscar um valor de uma lista ordenada
 
-### Programação Dinâmica (Dinamico.c)
+### Programação Dinâmica (dinamico.c)
 Fazer uma fibonacci de Xfibonacci
