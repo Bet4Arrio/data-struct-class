@@ -131,3 +131,4 @@ Caso tenha interesse em ver como alguns algoritmos podem ser pensados:
 
 
 [Este markdown contém explicações básicas de algumas estrategias de criar algoritimos](./Estrategias.md)
+[Este markdown contém Exercicios para aplicação de algumas tecnicas](./Exercicios.md)
