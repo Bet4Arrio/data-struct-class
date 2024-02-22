@@ -19,7 +19,7 @@ Para realizar essas análises, usamos uma notação chamada notação Big O. Ela
 
 | Notação| analise | Complexiadade |
 | -------| -- | --------- |
-| O(1)   | melhor impossivel |  constante idependete do input sempre tera o mesmo consumo |
+| O(1)   | melhor impossivel |  constante independe do input sempre terá o mesmo consumo |
 | O(ln N) |  bom | O consumo cresce aproximadamente seguindo a função da notação, sendo N o tamanho da entrada. |
 | O(N)|  ok |  " "  |
 | O(N ln N)| mais ou menos |  " "|
@@ -105,7 +105,6 @@ No algoritmo acima, podemos diminuir o espaço dele ordenando na própria array,
 func InsertionSort(nums []int){
     var pivot int
     for( i := 0; i < len(nums); i++){
-        ordenado[i] = nums[i]
         for(j := i, j > 0 && (nums[j] > nums[i]); j--){
             pivot  = nums[j]
             nums[j] = nums[i]
